@@ -4,6 +4,6 @@ import updateBook from '../Controller/updateController.js'
 
 let updateRoute = express.Router()
 
-updateRoute.patch('/update', updateBook)
+updateRoute.post('/update', updateBook)
 
 export default updateRoute

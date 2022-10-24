@@ -6,7 +6,7 @@ function UpdateBooks() {
     <div className={UpdateCSS.bgc}>
       <div className={UpdateCSS.wrapper}>
       <h1 className={UpdateCSS.title}>Update Book</h1>
-      <form action="http://localhost:2022/user/update" method="PUT">
+      <form action="http://localhost:2022/user/update" method="POST">
        <h3>Choose what to edit</h3>
       <select name="editOptions" id="editOptionsId">
         <option value="author_name">Author Name</option>
